@@ -1,0 +1,22 @@
+{
+  "name": "wire",
+  "version": "0.0.1",
+  "description": "A library of generative canvas art tools",
+  "main": "build/index.js",
+  "scripts": {
+    "build:dev": "webpack --watch",
+    "lint": "eslint src",
+    "open": "open index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Madwed",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "eslint": "^3.19.0",
+    "eslint-config-madwed": "git:madwed/eslint-config-madwed",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "dependencies": {}
+}
